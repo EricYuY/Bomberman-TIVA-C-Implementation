@@ -264,7 +264,7 @@ void PintarJugador(Personaje jn, uint8_t n, uint8_t escenario[], uint8_t ACCION)
 //*****                             ValidarMovJugador                                *****/
 //****************************************************************************************/
 //***** Verifica que el jugador se pueda mover en la direccion indicada por la tecla *****/
-//***** presionada y mueve al jugador en esa dirección si es que se puede            *****/
+//***** presionada y mueve al jugador en esa direccion si es que se puede            *****/
 //****************************************************************************************/
 //***** ENTRADAS:    tecla: tecla presionada                                         *****/
 //*****              jn   : jugador                                                  *****/
