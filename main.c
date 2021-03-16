@@ -117,13 +117,11 @@ int main(void){
   ConfigPtoSerial();
 
   while(1){
-
       //////////////////// VALORES INICIALES ///////////////////////////////
       ///se borran los datos del arreglo escenario
       for(i=0;i<504;i++){
           escenario[i]=0;
       }
-
       GenerarMapa(map);
       j1.x=1;
       j1.y=1;
