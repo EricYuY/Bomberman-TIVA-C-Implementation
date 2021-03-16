@@ -95,7 +95,7 @@ void Retardo(uint32_t num){
 }
 
 int main(void){
-   /////////////////////// DECLARACIÓN DE VARIABLES ///////////////////////////
+   /////////////////////// DECLARACIÃ“N DE VARIABLES ///////////////////////////
   float conteoFrecuencia = Delay;
   uint8_t FrecuenciaActual = 0;
   uint8_t map[columnas][filas];
@@ -109,7 +109,7 @@ int main(void){
   uint16_t explosion = 0 ,tempInicial=0, condicion =0;
 
 
-  ///////////////////////// CONFIGURACIÓN DE PUERTOS //////////////////////////
+  ///////////////////////// CONFIGURACIÃ“N DE PUERTOS //////////////////////////
 
   ConfiguraPWM();
   PLL_Init();                           // Reloj del sistema => 50MHz
